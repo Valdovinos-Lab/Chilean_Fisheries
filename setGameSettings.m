@@ -1,0 +1,12 @@
+function gamesettings = setGameSettings()
+gamesettings.MAXYEAR = 100;
+% gamesettings.FISHPRICES = {'Ppe',3;'Per',2;'Roa',1;'Sme',0;'Whi',2};
+gamesettings.FISHPRICES = {'Ppe',1.5;'Per',1;'Roa',0.5;'Sme',0;'Whi',1};
+gamesettings.ECOEXP = 2;
+gamesettings.SPECIESCRASHLIMIT = 0.1;
+gamesettings.FISHPENALTYLIMIT = 0.5;
+gamesettings.FISHPENALTYLIMIT2 = 0.2;
+gamesettings.ECOSYSINDLIMIT = 0.5;
+gamesettings.OVERFISH_PENALTY = 150000;
+gamesettings.OVERFISH_PENALTY2 = 250000;
+gamesettings.ECOSYS_PENALTY = 300000;
